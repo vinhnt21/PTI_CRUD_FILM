@@ -18,12 +18,6 @@
     "rating": 8.0
   },
   {
-    "title": "Em Chưa 18",
-    "director": "Lê Thanh Sơn",
-    "year": 2017,
-    "rating": 7.5
-  },
-  {
     "title": "Inception",
     "director": "Christopher Nolan",
     "year": 2010,
@@ -46,5 +40,11 @@
     "director": "Trấn Thành",
     "year": 2023,
     "rating": 7.6
+  },
+  {
+    "title": "Hai Phượng",
+    "director": "Victor Vũ",
+    "year": 2022,
+    "rating": 10.0
   }
 ]
