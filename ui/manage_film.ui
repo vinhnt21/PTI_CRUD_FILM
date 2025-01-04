@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>965</width>
+    <height>772</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Quản Lý Phim</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                stop:0 #2C3E50, stop:1 #3498DB);
+}
+
+QWidget#centralwidget {
+    background: transparent;
+}
+
+QPushButton {
+    background-color: #2980B9;
+    border: 2px solid #2980B9;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    min-width: 80px;
+    min-height: 25px;
+}
+
+QPushButton:hover {
+    background-color: #3498DB;
+    border-color: #3498DB;
+    transform: scale(1.1);
+}
+
+QPushButton:pressed {
+    background-color: #1F618D;
+    border-color: #1F618D;
+}
+
+QLineEdit {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #3498DB;
+    border-radius: 4px;
+    padding: 5px;
+    color: #2C3E50;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border-color: #2980B9;
+    background-color: white;
+}
+
+QListView {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #3498DB;
+    border-radius: 4px;
+    padding: 5px;
+    color: #2C3E50;
+}
+
+QListView::item {
+    padding: 5px;
+    border-radius: 2px;
+}
+
+QListView::item:selected {
+    background-color: #3498DB;
+    color: white;
+}
+
+QListView::item:hover {
+    background-color: rgba(52, 152, 219, 0.3);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>871</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetNoConstraint</enum>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetFixedSize</enum>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btn_search">
+         <property name="text">
+          <string>Tìm Kiếm</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_add">
+         <property name="text">
+          <string>Thêm</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_edit">
+         <property name="text">
+          <string>Chỉnh Sửa</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_delete">
+         <property name="text">
+          <string>Xóa</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QListView" name="listView"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

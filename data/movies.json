@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+    "director": "Victor Vũ",
+    "year": 2015,
+    "rating": 8.2
+  },
+  {
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "year": 1972,
+    "rating": 9.2
+  },
+  {
+    "title": "Bố Già",
+    "director": "Trấn Thành",
+    "year": 2021,
+    "rating": 8.0
+  },
+  {
+    "title": "Em Chưa 18",
+    "director": "Lê Thanh Sơn",
+    "year": 2017,
+    "rating": 7.5
+  },
+  {
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "year": 2010,
+    "rating": 8.8
+  },
+  {
+    "title": "Người Bất Tử",
+    "director": "Victor Vũ",
+    "year": 2018,
+    "rating": 7.0
+  },
+  {
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "year": 1994,
+    "rating": 8.9
+  },
+  {
+    "title": "Nhà Bà Nữ",
+    "director": "Trấn Thành",
+    "year": 2023,
+    "rating": 7.6
+  }
+]
